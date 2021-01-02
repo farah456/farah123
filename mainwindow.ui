@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1062</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1071</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tabl">
+     <attribute name="title">
+      <string> Ajouter un Bus</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>460</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#c74545;
+	border-radius:29px;
+	border:4px solid #ab1919;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	padding:12px 31px;
+	text-decoration:none;
+	text-shadow:-6px -6px 5px #2f6627;</string>
+      </property>
+      <property name="text">
+       <string>annuler</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1241</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../projet/voyage-maroc11.jpg</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>Modifier un Bus</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Supprimer un Bus</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Afficher un Bus</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Afficher</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1062</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuA_propos">
+    <property name="title">
+     <string>A' propos</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAnnonces">
+    <property name="title">
+     <string>Annonces</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuClients">
+    <property name="title">
+     <string>Clients</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuReservations">
+    <property name="title">
+     <string>Reservations</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuPersonnels">
+    <property name="title">
+     <string>Personnels</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTransports">
+    <property name="title">
+     <string>Transports</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuContact">
+    <property name="title">
+     <string>Contact</string>
+    </property>
+   </widget>
+   <addaction name="menuA_propos"/>
+   <addaction name="menuAnnonces"/>
+   <addaction name="menuClients"/>
+   <addaction name="menuReservations"/>
+   <addaction name="menuPersonnels"/>
+   <addaction name="menuTransports"/>
+   <addaction name="menuContact"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
